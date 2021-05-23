@@ -2,5 +2,5 @@
 Stop making a mess on your desktop!
 
 ```bash
-mkdir ~/Desktop/temp && defaults write com.apple.screencapture location  ~/Desktop/screenshots
+mkdir ~/Desktop/temp && defaults write com.apple.screencapture location  ~/Desktop/temp
 ```
