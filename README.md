@@ -1,2 +1,2 @@
-# Setting up automatic screenshots cleanup on Mac OS
+# Setting up automatic screenshots removal on Mac OS
 Stop making a mess on your desktop!
