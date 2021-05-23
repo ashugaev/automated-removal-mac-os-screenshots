@@ -7,6 +7,6 @@ Stop making a mess on your desktop!
 mkdir ~/Desktop/temp && defaults write com.apple.screencapture location  ~/Desktop/temp && (crontab -l 2>/dev/null; echo "0 0 * * * find ~/Desktop/temp -type f -mtime +5 -exec rm '{}' +;") | crontab -
 ```
 
-What the script does
+What the script does:
 - Makes folder `~/Desktop/temp` as default for screenshots
 - Adds a job in crontab to remove files in `temp` folder older than 5 days
