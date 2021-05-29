@@ -4,7 +4,7 @@ Stop making a mess on your desktop!
 ## Just execute this line into your Terminal
 
 ```bash
-mkdir ~/Desktop/screenshots && defaults write com.apple.screencapture location ~/Desktop/screenshots && (crontab -l 2>/dev/null; echo "0 0 * * * /usr/bin/find ~/Desktop/screenshots -type f -mtime +5 -exec rm -f '{}' +;") | crontab -
+FOLDER_NAME=screenshots; FILES_MAX_AGE=5; mkdir ~/Desktop/$FOLDER_NAME && defaults write com.apple.screencapture location ~/Desktop/$FOLDER_NAME && (crontab -l 2>/dev/null; echo "0 0 * * * /usr/bin/find ~/Desktop/$FOLDER_NAME -type f -mtime +$FILES_MAX_AGE -exec rm -f '{}' +;") | crontab -
 ```
 
 What the command does:
