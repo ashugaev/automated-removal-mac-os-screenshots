@@ -1,9 +1,7 @@
 # Setting up automatic screenshots removal on Mac OS
 Stop making a mess on your desktop!
 
-<span style="color:blue">some *blue* text</span>.
-
-### Before executing commands, you need to give a cron full disk access
+### ! Before executing commands, you need to give a cron full disk access [instruction is here](https://osxdaily.com/2020/04/27/fix-cron-permissions-macos-full-disk-access/)
 
 ## Just execute this line into your Terminal
 
