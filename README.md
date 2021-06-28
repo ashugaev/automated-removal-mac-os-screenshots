@@ -10,8 +10,8 @@ FOLDER_NAME=screenshots; FILES_MAX_AGE=14; mkdir ~/Desktop/$FOLDER_NAME && defau
 ```
 
 What the command does:
-- Makes folder `~/Desktop/temp` as default for screenshots
-- Adds a job in crontab to remove files in `temp` folder older than 14 days
+- Makes folder `~/Desktop/screenshots` as default for screenshots
+- Adds a job in crontab to remove files in `screenshots` folder older than 14 days
 
 ## Add also automatic cleaning of the downloads folder
 
